@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 secondline2 
+=======
+"firstline" 
+>>>>>>> parent of 104a9be... Update textfile.txt
