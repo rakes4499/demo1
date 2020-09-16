@@ -1,0 +1,76 @@
+to configure myself
+$ git config --global user.name "King Kong"
+$ git config --global user.email "king-kong@gmail.com"
+$ git config --global color.ui true
+$ git config --list
+
+
+to initialize
+$ git init
+$ git status
+$ git log // store the commit histroy
+
+
+to add and reset to and from staging area
+$ git add -A
+$ git add .
+$ git reset another-file.js
+
+
+to commit the changes
+$ git commit -m "Add three files"
+$ git commit -a -m "Do something once more" //staging and commiting
+
+
+to move to previous commit
+$ git revert commit_id
+
+
+cancelling the last commit and again commit by ading this file to staging
+$ git add file-i-forgot-to-add.html
+$ git commit --amend -m "Add the remaining file"
+
+
+to bind remote repository to local
+$ git remote add origin https://github.com/YourUsername/some-small-app.git
+
+
+to push and pull
+$ git push -u origin master
+$ git remote -v //list all repos
+$ git clone git@github.com:YourUsername/your-app.git this-name-is-much-better //to change the cloned repo name
+$ git pull
+
+
+to make and see branch
+$ git branch
+$ git branch user-profile
+$ git checkout user-profile //Switched to branch 'user-profile'
+
+
+to merging the contents of branches
+$ git merge user-profile //merge to master
+$ git branch -d user-profile //to delete the branch
+$ git checkout -b admin-panel //create and switch together
+
+
+to move uncommited file to new area
+$ git stash -u
+$ git stash list //to list how many are there
+$ git stash show //to show details of these how many
+$ git stash apply //to get back files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
