@@ -1,8 +1,6 @@
-
+<<<<<<< HEAD
 secondline2 
-
+=======
 "firstline" 
-hi rakesh_kumar`1
-
+>>>>>>> parent of 104a9be... Update textfile.txt
 hi rakesh abhishek paramesh11
-
